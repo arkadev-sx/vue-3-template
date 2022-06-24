@@ -1,6 +1,11 @@
-#stolen and improved with love <3
+stolen and improved with love <3
 
-#development
+## Commands
+
+```bash
+# Dev move with dev-server & hot reload 
 yarn dev
-#poduction
+
+# Compile production bundle.
 yarn build
+```
