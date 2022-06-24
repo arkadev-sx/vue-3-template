@@ -2,7 +2,7 @@
   <header>
     <nav id="nav" class="a">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">ab</router-link>
+      <router-link to="/about">about</router-link>
     </nav>
   </header>
   <main><router-view /></main>
@@ -16,6 +16,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: #222;
 }
 
 #nav {
@@ -26,8 +27,8 @@
   a {
     display: block;
     font-weight: bold;
-    color: #2c3e50;
-    background: red;
+    color: white;
+    background: #888;
 
     &.router-link-exact-active {
       color: #42b983;
